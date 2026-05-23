@@ -1,4 +1,4 @@
-# HA Flower Blueprint
+## HA Flower Blueprint
 
 A Home Assistant Blueprint to regularly check all plants for low moisture or conductivity.
 
@@ -11,7 +11,7 @@ A Home Assistant Blueprint to regularly check all plants for low moisture or con
 
 The following issues from the original blueprint have been fixed:
 
-- **Notifications only trigger on problems** – Alexa Anouncements added.
+- **Notifications only trigger on problems** – Mobile app and Alexa notifications are now silent when all plants are healthy. Previously, Alexa would announce "Achtung" and the mobile app would send a notification every evening even when no plants needed attention.
 - **Exclude filter now works correctly** – The excluded sensors are now properly filtered in all four sensor variables (`sensors`, `water`, `nutritions`, `both`). Previously the exclude input was defined but never applied.
 - **Actions only run on plant problems** – Actions 1, 2 and 3 now only execute when actual plant problems are detected after the exclusion filter is applied. Previously they would run regardless of plant status.
 
@@ -30,9 +30,13 @@ The following issues from the original blueprint have been fixed:
 
 ## Installation
 
-[![Open your Home Assistant instance and show the blueprint import dialog.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=(https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/flowers_blueprint.yaml))
+[![Open your Home Assistant instance and show the blueprint import dialog.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/blob/main/flowers_blueprint.yaml)
 
-Or manually import via **Settings → Automations → Blueprints → Import Blueprint**.
+Or manually import via **Settings → Automations → Blueprints → Import Blueprint** and use this URL:
+
+```
+https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/blob/main/Flowers.yaml
+```
 
 ---
 
