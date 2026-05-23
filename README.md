@@ -30,7 +30,7 @@ The following issues from the original blueprint have been fixed:
 
 ## Installation
 
-[![Open your Home Assistant instance and show the blueprint import dialog.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/DEIN_GITHUB_NAME/HA_Flower_Blueprint/blob/main/Flowers.yaml)
+[![Open your Home Assistant instance and show the blueprint import dialog.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/flowers_blueprint.yaml))
 
 Or manually import via **Settings → Automations → Blueprints → Import Blueprint**.
 
