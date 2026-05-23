@@ -1,4 +1,4 @@
-## HA Flower Blueprint
+# HA Flower Blueprint
 
 A Home Assistant Blueprint to regularly check all plants for low moisture or conductivity.
 
@@ -35,7 +35,7 @@ The following issues from the original blueprint have been fixed:
 Or manually import via **Settings → Automations → Blueprints → Import Blueprint** and use this URL:
 
 ```
-https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/blob/main/Flowers.yaml
+https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/blob/main/flowers_blueprint.yaml
 ```
 
 ---
