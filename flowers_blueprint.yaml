@@ -228,7 +228,7 @@ blueprint:
       selector:
         boolean: {}
       default: false
-  source_url: https://github.com/DEIN_GITHUB_NAME/HA_Flower_Blueprint/blob/main/Flowers.yaml
+  source_url: https://github.com/Gubelat/Home-Assistant-Flower-Blueprint/flowers_blueprint.yaml
 
 variables:
   device: !input device
